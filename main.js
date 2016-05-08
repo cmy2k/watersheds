@@ -89,7 +89,7 @@ var watersheds = {
     loadData: function (doneFunc) {
         var requests = [
             $.ajax({
-                url: 'data/data.json',
+                url: 'http://wscdn.fernleafinteractive.com/data.json',
                 dataType: 'json',
                 method: 'GET',
                 success: function(data) {
